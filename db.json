@@ -1,0 +1,10 @@
+{
+  "Seller": [
+    {
+      "id": 1,
+      "name": "Aditya",
+      "emailId": "aditya@gmail.com",
+      "password": "abc"
+    }
+  ]
+}
