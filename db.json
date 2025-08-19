@@ -1,70 +1,10 @@
 {
-  "Seller": [
+  "seller": [
     {
-      "id": "1311",
-      "name": "Aditya",
-      "password": "Aditya",
-      "email": "Aditya@gmail.com"
-    },
-    {
-      "id": "6350",
-      "name": "Aditya",
-      "password": "Bisht",
-      "email": "Adi@gmail.com"
-    },
-    {
-      "id": "e546",
-      "name": "",
-      "password": "",
-      "email": ""
-    },
-    {
-      "id": "fefc",
-      "name": "Aditya",
-      "password": "",
-      "email": ""
-    },
-    {
-      "id": "700f",
-      "name": "Aditya Singh ",
-      "password": "Biahr",
-      "email": "ADD@gmail.com"
-    },
-    {
-      "id": "384e",
-      "name": "Adi",
-      "password": "Adi",
-      "email": "Adi@test.com"
-    },
-    {
-      "id": "18b9",
-      "name": "Adi",
-      "password": "Adiiii",
-      "email": "Adi@gmail.com"
-    },
-    {
-      "id": "e908",
-      "name": "Adi",
-      "password": "Adi",
-      "email": ""
-    },
-    {
-      "id": "f2c8",
-      "name": "Aditya",
-      "password": "",
-      "email": ""
-    },
-    {
-      "id": "c7f7",
-      "name": "Adi",
-      "password": "Adiii",
-      "email": "Adibisht@gmail.com"
-    },
-    {
-      "id": "215f",
-      "name": "aditya",
-      "password": "bisht",
-      "email": "aditya@test.com"
+      "id": "1a05",
+      "name": "abc",
+      "password": "abc",
+      "email": "abc"
     }
   ]
 }

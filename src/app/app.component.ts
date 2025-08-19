@@ -17,8 +17,6 @@ export class AppComponent {
 
   }
   title = 'ecomm-project';
-  ngOnIt(){
-    this.seller.reloadSeller();
-  }
+
 
 }

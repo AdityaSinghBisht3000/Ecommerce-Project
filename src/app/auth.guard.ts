@@ -5,7 +5,7 @@ import { SellerService } from './services/seller.service';
 export const authGuard: CanActivateFn = (route, state) => {
   const sellerService = inject(SellerService);
   const router = inject(Router);
-  console.log(sellerService.isSellerLogedIn);
+  // console.log(sellerService.isSellerLogedIn);
    if(localStorage.getItem('seller'))
    {
     return true;

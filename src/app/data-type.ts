@@ -4,3 +4,8 @@ export interface signup{
     email:string,
     
 }
+
+export interface login{
+    email:string,
+    password:string,
+}
