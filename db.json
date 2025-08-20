@@ -6,5 +6,43 @@
       "password": "abc",
       "email": "abc"
     }
+  ],
+  "products": [
+    {
+      "id": "2002",
+      "name": "MacBook Air M2",
+      "price": "120000",
+      "color": "silver",
+      "catagory": "Laptop",
+      "description": "Apple MacBook Air with M2 chip",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-midnight-select-20220606"
+    },
+    {
+      "id": "2003",
+      "name": "Sony WH-1000XM5",
+      "price": "25000",
+      "color": "white",
+      "catagory": "Headphones",
+      "description": "Premium noise-canceling headphones",
+      "image": "https://www.sony.co.in/image/5d02da5df552836db894cead8a68f5f3"
+    },
+    {
+      "name": "Nike Air Max 2700",
+      "price": "1200000000",
+      "color": "blue",
+      "catagory": "Nike Shoes",
+      "description": "Comfortable running shoes with air cushioning",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/awjogtdnqxniqqk0wpgf/air-max-270-shoes-KkLcGR.png",
+      "id": "2004"
+    },
+    {
+      "id": "2008",
+      "name": "Adidas Ultraboost 22",
+      "price": "15000",
+      "color": "green",
+      "catagory": "Shoes",
+      "description": "Energy-returning running shoes",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Green_GZ0127_01_standard.jpg"
+    }
   ]
 }

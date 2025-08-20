@@ -10,5 +10,10 @@ export const authGuard: CanActivateFn = (route, state) => {
    {
     return true;
    }
-  return sellerService.isSellerLogedIn;
+   else
+   {
+    alert("Please signup/login first");
+    router.navigate(['/seller-auth']);
+    return false;
+   }
 };

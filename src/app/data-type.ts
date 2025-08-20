@@ -15,5 +15,7 @@ export interface addproduct{
     price:number,
     description:string,
     image:string,
-    category:string,
+    catagory:string,
+    color:string,
+    id:number
 }
