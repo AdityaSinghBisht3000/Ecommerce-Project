@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ProductService } from '../services/product.service';
 import { addproduct } from '../data-type';
-import { CommonModule } from '@angular/common';
+import { CommonModule, NgFor } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faTrash, faEdit } from '@fortawesome/free-solid-svg-icons';
 import { Router, RouterLink } from '@angular/router';
@@ -9,7 +9,7 @@ import { Router, RouterLink } from '@angular/router';
 @Component({
   selector: 'app-seller-home',
   standalone: true,
-  imports: [CommonModule,FontAwesomeModule,RouterLink],
+  imports: [CommonModule,FontAwesomeModule,RouterLink,NgFor],
   templateUrl: './seller-home.component.html',
   styleUrl: './seller-home.component.css'
 })

@@ -26,7 +26,14 @@ export class ProductService {
   }
   updateProduct(prod:addproduct)
   {
-    return this.http.put<addproduct>(`http://localhost:3000/products/${prod.id}`,prod)
+    return this.http.put<addproduct>(`http://localhost:3000/products/${prod.id}`,prod);
   }
-  
+  showProduct()
+  {
+    return this.http.get<addproduct[]>("http://localhost:3000/products?_limit=6");
+  }
+  showPTrendyroduct()
+  {
+    return this.http.get<addproduct[]>("http://localhost:3000/products?_limit=12");
+  }
 }

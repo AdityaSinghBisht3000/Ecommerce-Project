@@ -35,23 +35,50 @@
       "description": "Energy-returning running shoes",
       "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Green_GZ0127_01_standard.jpg"
     },
-     {
-      "id": "3003",
-      "name": "HP Pavilion Gaming Laptop",
-      "price": "65000",
-      "color": "black",
+    {
+      "id": "4001",
+      "name": "MacBook Pro 14",
+      "price": "180000",
+      "color": "silver",
       "catagory": "Laptop",
-      "description": "Gaming laptop with RTX graphics",
-      "image": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07791271.png"
+      "description": "Professional laptop with M3 chip",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&h=500&fit=crop"
+    },
+    {
+      "id": "4002",
+      "name": "Mechanical Gaming Keyboard",
+      "price": "8500",
+      "color": "black",
+      "catagory": "Gaming",
+      "description": "RGB mechanical keyboard with blue switches",
+      "image": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?w=500&h=500&fit=crop"
+    },
+    {
+      "id": "4004",
+      "name": "Bluetooth Speaker",
+      "price": "12000",
+      "color": "blue",
+      "catagory": "Audio",
+      "description": "Portable waterproof Bluetooth speaker",
+      "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500&h=500&fit=crop"
+    },
+    {
+      "id": "4005",
+      "name": "Coffee Maker Pro",
+      "price": "15000",
+      "color": "black",
+      "catagory": "Kitchen",
+      "description": "Programmable coffee maker with grinder",
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500&h=500&fit=crop"
     },
     {
       "id": "3006",
-      "name": "PlayStation 5",
+      "name": "Gaming Console Pro",
       "price": "50000",
       "color": "white",
       "catagory": "Gaming",
-      "description": "Next-gen gaming console",
-      "image": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-product-thumbnail-01-en-14sep21"
+      "description": "Next-gen gaming console with 4K support",
+      "image": "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=500&h=500&fit=crop"
     },
     {
       "id": "3001",
