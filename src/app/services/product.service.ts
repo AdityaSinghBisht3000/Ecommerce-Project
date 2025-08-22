@@ -14,12 +14,10 @@ export class ProductService {
     console.log("ADD Product!!!");
    return this.http.post("http://localhost:3000/products",data,{observe:'response'});
   }
-
   getAllProducts()
   {
     return this.http.get<addproduct[]>("http://localhost:3000/products");
   }
-
   deleteProduct(id:number)
   {
     return this.http.delete(`http://localhost:3000/products/${id}`);
@@ -36,4 +34,13 @@ export class ProductService {
   {
     return this.http.get<addproduct[]>("http://localhost:3000/products?_limit=12");
   }
+    searchProduct(query: string) {
+    return this.http.get<addproduct[]>(
+      `http://localhost:3000/products?q=${query}`
+    );
+  }
+
+
+
+
 }
