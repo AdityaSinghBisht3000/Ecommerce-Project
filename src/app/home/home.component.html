@@ -1,9 +1,9 @@
 <ngb-carousel *ngIf="images" style="margin-top: 24px;">
     <ng-template  *ngFor="let img of images" ngbSlide>
       <div class="picsum-img-wrapper">
-        <!-- <a routerLink="/details/{{img.id}}"> -->
+        <a routerLink="/details/{{img.id}}">
 			 <img class="product-header-image" src="{{img.image}}" alt="Random first slide">
-     <!-- </a> -->
+     </a>
         </div>
       <div class="carousel-caption">
         <h3>{{img.name}}</h3>

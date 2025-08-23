@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router, RouterLink } from "@angular/router";
 import { addproduct } from '../data-type';
 import { ProductService } from '../services/product.service';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-header',
@@ -13,7 +14,7 @@ import { ProductService } from '../services/product.service';
 })
 export class HeaderComponent implements OnInit{
 
-  constructor(private router:Router, private product : ProductService){
+  constructor(private router:Router, private product : ProductService , private http:HttpClient){
 
   }
 
@@ -54,18 +55,24 @@ export class HeaderComponent implements OnInit{
   searchProduct(query:KeyboardEvent){
     if(query){
       const element = query.target as HTMLInputElement;
-      // console.log(element.value)
-      this.product.searchProduct(element.value).subscribe((result)=>{
-       console.log(result)
-        if(result.length>5){
-          result.length=length
-        }
-        this.searchResult=result;
+      console.log("ele " ,element.value)
+      this.product.searchProduct(element.value).subscribe((res)=>{
+           const filtered = res.filter(item =>
+                            item.name.toLowerCase().includes(element.value.toLowerCase())
+                        );
+                        console.log(filtered);
+                        this.searchResult = filtered;
       })
+
     }
   }
   hideSearch(){
     this.searchResult=undefined
+  }
+
+  redirectToDetails(id:number)
+  {
+    this.router.navigate([`/details/${id}`])
   }
 
 }

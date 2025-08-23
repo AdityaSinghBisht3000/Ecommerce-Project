@@ -20,7 +20,7 @@ export class SearchComponent implements OnInit {
     }
 
     searchResult: undefined|addproduct[];
-    
+
     ngOnInit()
     {
         this.route.paramMap.subscribe(params => {

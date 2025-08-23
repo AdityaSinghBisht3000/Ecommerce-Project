@@ -36,10 +36,14 @@ export class ProductService {
   }
     searchProduct(query: string) {
     return this.http.get<addproduct[]>(
-      `http://localhost:3000/products?q=${query}`
+      `http://localhost:3000/products`
     );
   }
-
+  getProduct(id:string)
+  {
+    // console.log("ID = ",id)
+    return this.http.get<addproduct>(`http://localhost:3000/products/${id}`);
+  }
 
 
 
