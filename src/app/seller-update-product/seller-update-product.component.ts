@@ -28,7 +28,7 @@ export class SellerUpdateProductComponent implements OnInit {
           {
             this.Name=this.update_res.name;
             this.color=this.update_res.color;
-            this.catagory=this.update_res.catagory;
+            this.catagory=this.update_res.category;
             this.price=this.update_res.price;
             this.description=this.update_res.description;
             this.img=this.update_res.image;

@@ -5,6 +5,36 @@
       "name": "abc",
       "password": "abc",
       "email": "abc"
+    },
+    {
+      "id": "feb0",
+      "name": "aditya",
+      "password": "aditya",
+      "email": "aditya@gmail.com"
+    },
+    {
+      "id": "e6dd",
+      "name": "adi",
+      "password": "adi",
+      "email": "adi"
+    },
+    {
+      "id": "0fac",
+      "name": "adi",
+      "password": "adi",
+      "email": "adi"
+    },
+    {
+      "id": "7182",
+      "name": "adi",
+      "password": "adi",
+      "email": "adi"
+    },
+    {
+      "id": "bce3",
+      "name": "aditya",
+      "password": "aditya",
+      "email": "aditya@gmail.com"
     }
   ],
   "products": [
@@ -151,6 +181,262 @@
       "catagory": "Gaming",
       "description": "Ergonomic gaming mouse with 30K DPI",
       "image": "https://assets2.razerzone.com/images/pnx.assets/618c0b65424070a1017a7168b1dcfe49/razer-deathadder-v3-gallery-hero-1500x1000.png"
+    }
+  ],
+  "users": [
+    {
+      "id": "3bd7",
+      "name": "aditya",
+      "email": "aditya@gmail.com",
+      "password": "adi"
+    },
+    {
+      "id": "ff02",
+      "name": "Aditya",
+      "email": "aditya@gmail.com",
+      "password": "adi"
+    }
+  ],
+  "cart": [
+    {
+      "id": "82ad",
+      "name": "Sony WH-1000XM5",
+      "price": "25000",
+      "color": "white",
+      "catagory": "Headphones",
+      "description": "Premium noise-canceling headphones",
+      "image": "https://www.sony.co.in/image/5d02da5df552836db894cead8a68f5f3",
+      "quantity": 1,
+      "productId": "2003",
+      "userId": "3bd7"
+    },
+    {
+      "id": "23d0",
+      "name": "Adidas Ultraboost 22",
+      "price": "15000",
+      "color": "green",
+      "catagory": "Shoes",
+      "description": "Energy-returning running shoes",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Green_GZ0127_01_standard.jpg",
+      "quantity": 2,
+      "productId": "2008",
+      "userId": "3bd7"
+    },
+    {
+      "id": "1481",
+      "name": "Adidas Ultraboost 22",
+      "price": "15000",
+      "color": "green",
+      "catagory": "Shoes",
+      "description": "Energy-returning running shoes",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Green_GZ0127_01_standard.jpg",
+      "quantity": 1,
+      "productId": "2008",
+      "userId": "3bd7"
+    },
+    {
+      "id": "2cee",
+      "name": "MacBook Pro 14",
+      "price": "180000",
+      "color": "silver",
+      "catagory": "Laptop",
+      "description": "Professional laptop with M3 chip",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&h=500&fit=crop",
+      "quantity": 1,
+      "productId": "4001",
+      "userId": "3bd7"
+    },
+    {
+      "id": "e8f0",
+      "name": "MacBook Pro 14",
+      "price": "180000",
+      "color": "silver",
+      "catagory": "Laptop",
+      "description": "Professional laptop with M3 chip",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&h=500&fit=crop",
+      "quantity": 4,
+      "productId": "4001",
+      "userId": "3bd7"
+    },
+    {
+      "id": "397d",
+      "name": "Sony WH-1000XM5",
+      "price": "25000",
+      "color": "white",
+      "catagory": "Headphones",
+      "description": "Premium noise-canceling headphones",
+      "image": "https://www.sony.co.in/image/5d02da5df552836db894cead8a68f5f3",
+      "quantity": 1,
+      "productId": "2003",
+      "userId": "3bd7"
+    },
+    {
+      "id": "97f5",
+      "name": "Sony WH-1000XM5",
+      "price": "25000",
+      "color": "white",
+      "catagory": "Headphones",
+      "description": "Premium noise-canceling headphones",
+      "image": "https://www.sony.co.in/image/5d02da5df552836db894cead8a68f5f3",
+      "quantity": 1,
+      "productId": "2003",
+      "userId": "3bd7"
+    },
+    {
+      "id": "7098",
+      "name": "Sony WH-1000XM5",
+      "price": "25000",
+      "color": "white",
+      "catagory": "Headphones",
+      "description": "Premium noise-canceling headphones",
+      "image": "https://www.sony.co.in/image/5d02da5df552836db894cead8a68f5f3",
+      "quantity": 1,
+      "productId": "2003",
+      "userId": "3bd7"
+    },
+    {
+      "id": "7a92",
+      "name": "Sony WH-1000XM5",
+      "price": "25000",
+      "color": "white",
+      "catagory": "Headphones",
+      "description": "Premium noise-canceling headphones",
+      "image": "https://www.sony.co.in/image/5d02da5df552836db894cead8a68f5f3",
+      "quantity": 1,
+      "productId": "2003",
+      "userId": "3bd7"
+    },
+    {
+      "id": "5756",
+      "name": "Sony WH-1000XM5",
+      "price": "25000",
+      "color": "white",
+      "catagory": "Headphones",
+      "description": "Premium noise-canceling headphones",
+      "image": "https://www.sony.co.in/image/5d02da5df552836db894cead8a68f5f3",
+      "quantity": 1,
+      "productId": "2003",
+      "userId": "3bd7"
+    },
+    {
+      "id": "97b9",
+      "name": "Sony WH-1000XM5",
+      "price": "25000",
+      "color": "white",
+      "catagory": "Headphones",
+      "description": "Premium noise-canceling headphones",
+      "image": "https://www.sony.co.in/image/5d02da5df552836db894cead8a68f5f3",
+      "quantity": 1,
+      "productId": "2003",
+      "userId": "3bd7"
+    },
+    {
+      "id": "e7e8",
+      "name": "Sony WH-1000XM5",
+      "price": "25000",
+      "color": "white",
+      "catagory": "Headphones",
+      "description": "Premium noise-canceling headphones",
+      "image": "https://www.sony.co.in/image/5d02da5df552836db894cead8a68f5f3",
+      "quantity": 1,
+      "productId": "2003",
+      "userId": "3bd7"
+    },
+    {
+      "id": "dc94",
+      "name": "Sony WH-1000XM5",
+      "price": "25000",
+      "color": "white",
+      "catagory": "Headphones",
+      "description": "Premium noise-canceling headphones",
+      "image": "https://www.sony.co.in/image/5d02da5df552836db894cead8a68f5f3",
+      "quantity": 1,
+      "productId": "2003",
+      "userId": "3bd7"
+    },
+    {
+      "id": "d302",
+      "name": "Sony WH-1000XM5",
+      "price": "25000",
+      "color": "white",
+      "catagory": "Headphones",
+      "description": "Premium noise-canceling headphones",
+      "image": "https://www.sony.co.in/image/5d02da5df552836db894cead8a68f5f3",
+      "quantity": 1,
+      "productId": "2003",
+      "userId": "3bd7"
+    },
+    {
+      "id": "4f7a",
+      "name": "Sony WH-1000XM5",
+      "price": "25000",
+      "color": "white",
+      "catagory": "Headphones",
+      "description": "Premium noise-canceling headphones",
+      "image": "https://www.sony.co.in/image/5d02da5df552836db894cead8a68f5f3",
+      "quantity": 1,
+      "productId": "2003",
+      "userId": "3bd7"
+    },
+    {
+      "id": "2678",
+      "name": "Sony WH-1000XM5",
+      "price": "25000",
+      "color": "white",
+      "catagory": "Headphones",
+      "description": "Premium noise-canceling headphones",
+      "image": "https://www.sony.co.in/image/5d02da5df552836db894cead8a68f5f3",
+      "quantity": 1,
+      "productId": "2003",
+      "userId": "3bd7"
+    },
+    {
+      "id": "f495",
+      "name": "Sony WH-1000XM5",
+      "price": "25000",
+      "color": "white",
+      "catagory": "Headphones",
+      "description": "Premium noise-canceling headphones",
+      "image": "https://www.sony.co.in/image/5d02da5df552836db894cead8a68f5f3",
+      "quantity": 1,
+      "productId": "2003",
+      "userId": "3bd7"
+    },
+    {
+      "id": "f7ea",
+      "name": "Sony WH-1000XM5",
+      "price": "25000",
+      "color": "white",
+      "catagory": "Headphones",
+      "description": "Premium noise-canceling headphones",
+      "image": "https://www.sony.co.in/image/5d02da5df552836db894cead8a68f5f3",
+      "quantity": 1,
+      "productId": "2003",
+      "userId": "3bd7"
+    },
+    {
+      "id": "1905",
+      "name": "Sony WH-1000XM5",
+      "price": "25000",
+      "color": "white",
+      "catagory": "Headphones",
+      "description": "Premium noise-canceling headphones",
+      "image": "https://www.sony.co.in/image/5d02da5df552836db894cead8a68f5f3",
+      "quantity": 1,
+      "productId": "2003",
+      "userId": "3bd7"
+    },
+    {
+      "id": "4a0e",
+      "name": "Sony WH-1000XM5",
+      "price": "25000",
+      "color": "white",
+      "catagory": "Headphones",
+      "description": "Premium noise-canceling headphones",
+      "image": "https://www.sony.co.in/image/5d02da5df552836db894cead8a68f5f3",
+      "quantity": 1,
+      "productId": "2003",
+      "userId": "3bd7"
     }
   ]
 }

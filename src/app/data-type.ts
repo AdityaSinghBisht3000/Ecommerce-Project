@@ -12,10 +12,24 @@ export interface login{
 
 export interface addproduct{
     name:string,
+    quantity:undefined|number,
     price:number,
     description:string,
     image:string,
-    catagory:string,
+    category:string,
     color:string,
     id:number
+}
+
+export interface cart{
+  name:string,
+  price:number,
+  category:string,
+  color:string,
+  image:string,
+  description:string,
+  id:number| undefined,
+  quantity:undefined | number,
+  productId:number,
+  userId:number
 }

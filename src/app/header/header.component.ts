@@ -21,31 +21,73 @@ export class HeaderComponent implements OnInit{
   menuType : string ='default';
   sellerName: string ='';
   searchResult:undefined|addproduct[];
-
-  ngOnInit():void{
+  userName:string='';
+  cartItems=0;
+    ngOnInit():void{
     this.router.events.subscribe((val:any)=>{
       // console.log("huhuhuhu",val);
-      if(val.url && val.url.includes('seller') && localStorage.getItem('seller'))
+      if(val.url )
       {
-        console.log('in seller area');
-        this.menuType='seller'
-        if(localStorage.getItem('seller'))
+        if(localStorage.getItem('seller') && val.url.includes('seller') )
         {
-          let sellerStore = localStorage.getItem('seller');
-          let sellerData = sellerStore && JSON.parse(sellerStore);
-          this.sellerName = sellerData.body[0].name;
-        }
+              console.log('in seller area');
+              this.menuType='seller'
+              let sellerStore = localStorage.getItem('seller');
+              let sellerData = sellerStore && JSON.parse(sellerStore);
+              this.sellerName = sellerData && sellerData.body[0].name;
+            
+          }
+          else if(localStorage.getItem('user'))
+          {
+            let userStore = localStorage.getItem('user');
+            let userData = userStore && JSON.parse(userStore);
+            this.userName = userData?.body && userData.body.length > 0 ? userData.body[0].name : ''; 
+            this.menuType='user'
+          }
       }
       else{
         console.log("outside seller")
         this.menuType='default'
       }
     })
+    
+    this.cartItems=localStorage.getItem('localCart')?JSON.parse(localStorage.getItem('localCart')!).length:0; 
+    this.product.cartData.subscribe((items)=>{
+      this.cartItems=items.length;
+    })
   }
+
+  // ngOnInit():void{
+  //   this.router.events.subscribe((val:any)=>{
+  //     // console.log("huhuhuhu",val);
+  //     if(val.url && val.url.includes('seller') && localStorage.getItem('seller'))
+  //     {
+  //       console.log('in seller area');
+  //       this.menuType='seller'
+  //       if(localStorage.getItem('seller'))
+  //       {
+  //         let sellerStore = localStorage.getItem('seller');
+  //         let sellerData = sellerStore && JSON.parse(sellerStore);
+  //         this.sellerName = sellerData.body[0].name;
+  //       }
+  //     }
+  //     else{
+  //       console.log("outside seller")
+  //       this.menuType='default'
+  //     }
+  //   })
+  // }
   logOut(){
     localStorage.removeItem('seller')
     this.router.navigate(['/']);
   }
+
+  userLogout(){
+    localStorage.removeItem('user');
+    this.router.navigate(['/user-auth'])
+    this.product.cartData.emit([])
+  }
+
   submitSearch(val:string)
   { 
     this.router.navigate([`search/${val}`]);
