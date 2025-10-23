@@ -18,7 +18,8 @@ export interface addproduct{
     image:string,
     category:string,
     color:string,
-    id:number
+    id:number,
+    productID:undefined|number,
 }
 
 export interface cart{
@@ -32,4 +33,12 @@ export interface cart{
   quantity:undefined | number,
   productId:number,
   userId:number
+}
+
+export interface priceSummary{
+  price:number,
+  discount:number,
+  tax:number,
+  delivery:number,
+  total:number
 }
